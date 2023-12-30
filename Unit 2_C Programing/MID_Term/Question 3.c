@@ -11,15 +11,19 @@ typedef signed long          int32 ;
 typedef signed long long     int64 ; 
 
 /*
-writ c program to find prime numbers between two intervals
-by making user-defined function 
+3)c function to print all prime numbers between two numbers? 
+test case :
+input:n1=1,n2=20 ->output:1 2 3 5 7 11 13 17 19                                                                                                                                                                                                                                                                                                                                                                        
+
 */
 
 uint8 Check(uint32 i);
 void main(){
 	uint32 FirstNumber , SecondNumber , i , CheckedValue ;
-	printf("Enter two numbers (intervals) : ");
-	scanf("%d %d" , &FirstNumber , &SecondNumber );
+	printf("First number  : ");
+	scanf("%d" , &FirstNumber );
+	printf("Second number : ");
+	scanf("%d" , &SecondNumber );
 	/* validation check for numbers must be bigger positive and second must be 
 	bigger than the first 
 	*/

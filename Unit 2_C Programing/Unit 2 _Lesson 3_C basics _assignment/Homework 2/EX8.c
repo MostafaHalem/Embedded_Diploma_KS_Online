@@ -11,7 +11,7 @@ typedef signed long          int32 ;
 typedef signed long long     int64 ; 
  
 /*
-Write C Program to calculate factorial of number 
+Write C Program to Make simple calculator 
 ########################### */
 
 void main(){

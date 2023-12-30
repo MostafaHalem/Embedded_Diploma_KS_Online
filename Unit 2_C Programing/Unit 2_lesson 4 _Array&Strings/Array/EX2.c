@@ -23,7 +23,7 @@ void main(){
 	fflush(stdin); fflush(stdout);
 	scanf("%d", &Number_Of_Data );
 	if(Number_Of_Data<0 || Number_Of_Data> 100){    //validaion of the range 
-		printf("!!! Error number of data should be in range 0->100")
+		printf("!!! Error number of data should be in range 0->100");
 	}
 	else{
 		printf("Enter the data  \n");

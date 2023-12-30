@@ -15,7 +15,7 @@ Write C Program to calculate factorial of number
 ########################### */
 
 void main(){
-	uint64  sum = 0  ;
+	uint64  sum = 1 ;
 	int16 x = 0 ,i =1;
 	printf("Enter an int  : ");
 	fflush(stdin); fflush(stdout);
